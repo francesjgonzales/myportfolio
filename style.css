@@ -10,15 +10,15 @@ body {
     padding: 1rem;
 }
 
-.skills {
+/* .skills {
     margin: 5rem;
     padding: 3rem;
-}
+} */
 
-.col-sm {
+/* .col-sm {
     margin: 1rem;
     padding: .5rem;
-}
+} */
 
 main {
     min-height: 100vh;
@@ -38,7 +38,12 @@ main {
     justify-content: end;
 }
 
-/* .glass {
+hr.solid {
+    border-top: 1px solid;
+    border-radius: 1px;
+  }
+
+.glass {
     background: white;
     min-height: 80vh;
     width: 60%;
@@ -47,4 +52,4 @@ main {
     z-index: 2;
     backdrop-filter: blur(2rem);
 
-} */
+}
