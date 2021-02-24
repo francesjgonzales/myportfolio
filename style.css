@@ -4,16 +4,61 @@
     box-sizing: border-box;
 }
 
+@media all and (max-width: 375px) {
+    body, #sideright, .card-title {
+    margin: 4rem;
+    padding: 3rem;
+    font-size: x-small;
+    }
+  }
+
+svg:hover {
+    filter: invert(0.5)
+    sepia(1)
+    hue-rotate(200deg)
+    saturate(2)
+    brightness(1);
+  }
+
+.card-title:hover {
+    filter: invert(0.5)
+    sepia(1)
+    hue-rotate(200deg)
+    saturate(2)
+    brightness(1);
+  }
+
+.btn:hover {
+    color: aliceblue;
+    background-color: #202D34;
+  }
+
+.btn {
+    background: #A99FF3;
+    font-size: small;
+    color: #202D34;
+    stroke: #A99FF3; 
+}
+
+.card-link {
+    text-decoration: none;
+    color: #202D34;
+}
+
+.card-link:hover {
+    color: aliceblue;
+}
+
 body {
-    background: linear-gradient(to right top, #CDB32A, #EB5757);
+    background-color: aliceblue;
     margin: 2rem;
     padding: 1rem;
 }
 
-.work1, .row {
+.intro {
     margin: 1rem;
     padding: .5rem;
-    text-align: center;
+    text-align: left;
 }
 
 #grid {
@@ -54,9 +99,11 @@ main {
 hr.solid {
     border-top: 1px solid;
     border-radius: 1px;
+    /* margin: 2rem;
+    padding: 1rem; */
   }
 
-.glass {
+/* .glass {
     background: white;
     min-height: 80vh;
     width: 60%;
@@ -64,5 +111,4 @@ hr.solid {
     border-radius: 1rem;
     z-index: 2;
     backdrop-filter: blur(2rem);
-
-}
+} */
