@@ -33,8 +33,21 @@
         </ul>
       </div>
     </nav>
-
     
+    <!-- Return to Top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+    </svg></button>
+  
+    <!-- Pagination -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="./gerties.html">gerties</a></li>
+        <li class="page-item"><a class="page-link" href="./science.html">science</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+      </ul>
+    </nav>
+
     <!-- START portfolio -->
     <div class="container mt-5">
       
@@ -44,6 +57,8 @@
           <div class="work1">
             <h5 class="card-title"><strong>Gerties Bakeshop </strong></h5>
             <p class="card-text">A front-end e-commerce website for customers to get updates on store's menus and able to send enquiries on take-outs and delivery orders.</p>
+            <a href="https://francesjgonzales.github.io/gertiesfinal/" class="btn">Demo</a>&emsp;
+            <a href="https://github.com/francesjgonzales/gertiesfinal" class="btn">Documentation</a>
           </div>
         </div>
           <div class="col-sm-6 col-md-8">
@@ -99,7 +114,6 @@
                 </h6>
                 <div class="eyebrow my-3">Content Structure</div>
                 <img src="/links/information-architecture.png" class="img-fluid" alt="information-architecture">
-                <div class="eyebrow my-3">Wireframes</div>
                 <img src="/links/low-fidelity1.png" class="img-fluid" alt="low-fidelity wireframe">
                 <img src="/links/low-fidelity2.png" class="img-fluid" alt="low-fidelity wireframe">
               </div>
@@ -111,14 +125,37 @@
                 <h5 class="card-title">Re-branded design, Color & Typography</h5>
               </div>
             </div>
-              <div class="col-sm-6 col-md-8">
-                <h6>Based on their current logo, the colours are yellow, red and lime green. I wanted to propose a whole new look of Gerties by focusing on the name, toning down the red and limiting the colours to be just red and dark grey for simplicity and clean look.<br>
-                
-                For fonts, I used open sans, helvetica & sans-serif font for clear & easy readability.*
-                </h6>
-                <div class="eyebrow my-3">Design system</div>
-                <img src="/links/Design guidelines.png" class="img-fluid" alt="design-guidelines">
+            
+            <div class="col-sm-6 col-md-8">
+              <h6>Based on their current logo, the colours are yellow, red and lime green. I wanted to propose a whole new look of Gerties by focusing on the name, toning down the red and limiting the colours to be just red and dark grey for simplicity and clean look.
+                <br>
+                <br>
+                For fonts, I used open sans, helvetica & sans-serif font for clear & easy readability.
+              </h6>
+              <div class="eyebrow my-3">Design system</div>
+              <img src="/links/Design guidelines.png" class="img-fluid" alt="design-guidelines">
+            </div>
+          </div>        
+          
+          <div class="row mt-5">
+            <div class="col-sm-6 col-md-4">
+              <div class="work1">
+                <h5 class="card-title">UI - high-fidelity wireframes</h5>
               </div>
+            </div>
+            
+            <div class="col-sm-6 col-md-8">
+              <div class="eyebrow my-3">Main page</div>
+              <img src="/links/main.png" class="img-fluid" alt="main-page">
+              <br>
+              <br>
+              <div class="eyebrow my-3">Menu page</div>
+              <img src="/links/menu.png" class="img-fluid" alt="menu-page">
+              <br>
+              <br>
+              <div class="eyebrow my-3">Delivery & Contact page</div>
+              <img src="/links/delivery.png" class="img-fluid" alt="delivery-page">
+            </div>
           </div>          
 
     </div>
@@ -129,6 +166,7 @@
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./script.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
