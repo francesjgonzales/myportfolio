@@ -22,13 +22,13 @@ svg:hover {
     brightness(1);
   }
 
-.card-title:hover {
+/* .card-title:hover {
     filter: invert(0.5)
     sepia(1)
     hue-rotate(200deg)
     saturate(2)
     brightness(1);
-  }
+  } */
 
 .btn:hover {
     color: aliceblue;
@@ -173,3 +173,8 @@ hr.solid {
         border-radius: 10px; /* Rounded corners */
         font-size: 18px; /* Increase font size */    }
   }
+
+  a {
+      text-decoration: none; 
+      color: #202D34;
+    }
