@@ -191,7 +191,7 @@ hr.solid {
         border-radius: 10px; /* Rounded corners */
   }
 
-  a {
+  .a {
       text-decoration: none; 
       color: #202D34;
     }
