@@ -190,8 +190,3 @@ hr.solid {
         padding: 11px; /* Some padding */
         border-radius: 10px; /* Rounded corners */
   }
-
-  a {
-      text-decoration: none; 
-      color: #202D34;
-    }
