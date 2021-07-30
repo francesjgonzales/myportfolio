@@ -1,3 +1,3 @@
 # myportfolio
 
-Welcome to my portfolio. For enquiries, please drop me an email at francesj7837@gmail.com.
+Welcome to my [portfolio](https://francesjgonzales.github.io/myportfolio/). For enquiries, please drop me an email at francesj7837@gmail.com.
