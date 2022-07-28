@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 576px) {
+  body,
+  #svg,
+  svg {
+    margin: 3rem;
+    padding: 2rem;
+    font-size: small;
+    /* display: flex;
+    justify-content: left; */
+  }
+}
+
+svg:hover {
+  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(2) brightness(1);
+}
+
+h1,
+h6,
+p {
+  font-family: "Jost", sans-serif;
+}
+
+.btn:hover {
+  color: aliceblue;
+  animation-name: "title";
+  animation-duration: 4s;
+  background-color: rgb(219, 178, 128);
+}
+
+#title:hover {
+  color: rgb(219, 178, 128);
+  cursor: crosshair;
+}
+
+.work1 {
+  display: block;
+  align-items: center;
+  justify-content: space-evenly;
+  /* margin-top: 6rem;  */
+}
+
+.description {
+  font-size: smaller;
+  font-weight: 400;
+}
+
+.timeline {
+  display: flex;
+  align-items: top;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+i {
+  text-transform: uppercase;
+  color: #a99ff3;
+}
+
+.discovery {
+  text-transform: uppercase;
+  color: rgb(219, 178, 128);
+}
+
+#title {
+  color: #a99ff3;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.subHeader {
+  color: #a99ff3;
+}
+
+#myName {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: crosshair;
+}
+.badge2 {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.btn {
+  background: #a99ff3;
+  font-size: small;
+  color: #202d34;
+  stroke: #a99ff3;
+  margin-bottom: 10px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #202d34;
+}
+
+.card-link:hover {
+  color: aliceblue;
+}
+
+body {
+  background-color: aliceblue;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.page-link {
+  background-color: #a99ff3;
+  color: #202d34;
+  border-style: aliceblue;
+}
+
+.active {
+  background-color: bisque;
+}
+
+.active:hover {
+  background-color: rgb(219, 178, 128);
+  color: #202d34;
+}
+
+.page-link:hover {
+  background-color: rgb(219, 178, 128);
+  color: #202d34;
+}
+.solid {
+  stroke-width: 50%;
+  stroke-linecap: round;
+}
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid #555;
+  border-bottom: 25px solid transparent;
+}
+
+.intro {
+  margin: 1rem;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+#grid {
+  text-align: left;
+}
+
+.subheader {
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-style: none;
+  background-color: rgb(235, 224, 246);
+}
+
+.card-img {
+  height: 20rem;
+}
+
+.card-title {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.navbar,
+.navbar-expand-lg {
+  /* background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgba(255, 255, 255, 0.3)); */
+  border-radius: 0.3rem;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: right;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-basis: auto;
+  justify-content: flex-end;
+}
+
+hr.solid {
+  border-top: 1px solid;
+  border-radius: 1px;
+  /* margin: 2rem;
+    padding: 1rem; */
+}
+
+/* .glass {
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0.5));
+    border-radius: 1rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+} */
+
+/* @include media-breakpoint-up(sm) {
+    .skills {
+      display: block;
+    }
+  } */
+
+/* .card-img-top:hover {
+  background-color: rgb(219, 178, 128 0.5);
+} */
+
+.eyebrow,
+.workProj {
+  font-size: small;
+  font-weight: 600;
+  color: rgb(219, 178, 128);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+/* RETURN TO TOP BUTTON */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #a99ff3; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+  background-color: rgb(178, 134, 81); /* Add a dark-grey background on hover */
+}
+
+@media all and (max-width: 576px) {
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #a99ff3; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 11px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+  }
+}

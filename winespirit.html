@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <title>frances_gonzales</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <a class="navbar-brand" href="./index.html"><strong>{fg}</strong></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./skills.html"
+              >Skills</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#selectedProjects">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#contactMe">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Return to Top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <img
+        src="https://francesjgonzales.github.io/myportfolio/links/arrow-up-short.svg"
+        alt="arrow-up"
+        width="25px"
+      />
+    </button>
+
+    <!-- Pagination -->
+    <div class="container mt-5">
+      <h5 class="card-title text-center">
+        <strong>Works</strong>
+      </h5>
+      <nav aria-label="Page navigation">
+        <ul
+          class="pagination pagination-sm justify-content-center text-center"
+          id="navPortflio"
+        >
+          <li class="page-item">
+            <a class="page-link active" href="./winespirit.html">UX and UI</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./gerties.html">FE</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./construction.html">UI Design</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./digitaldesign.html">Visual Design</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./science.html">Microsite</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./science.html">Interactive</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./branding.html">Branding</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./motiongraphics.html"
+              >Motion Graphics</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <hr class="solid m-5" />
+
+    <!-- PORTFOLIO 1 -->
+    <div class="row mt-3">
+      <div class="work1">
+        <h5 class="card-title text-center">
+          <strong>Wines and Spirits</strong>
+        </h5>
+        <p class="card-text text-center">
+          A front-end e-commerce website for customers to get updates on store's
+          menus and able to send enquiries on take-outs and delivery orders
+        </p>
+        <div class="button">
+          <a
+            href="https://www.ishopchangi.com/en/product/collection-particuli-r-puisseguin-st--emilion-2016-aoc-750ml-13--mp00062966?p_collection=HOMEDELIVERYNONTRAVELLER,LANDSIDE#referer=searchlisting/"
+            target="_blank"
+            class="btn"
+            >Live Implementation</a
+          >&emsp;
+          <!-- <a
+            href="https://github.com/francesjgonzales/gertiesfinal"
+            target="_blank"
+            class="btn"
+            >Documentation</a
+          > -->
+        </div>
+      </div>
+    </div>
+
+    <!-- START Wines Spirits -->
+    <div class="container mt-5">
+      <img
+        src="links/cag-1.png"
+        class="img-fluid"
+        alt="Intro image to Wines and Spirits"
+      />
+
+      <!-- START Requirements -->
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <span class="eyebrow">COMPANY</span>
+            <h6 class="card-title">iShop Changi</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <span class="eyebrow">PROJECT DATE</span>
+          <h6>Development process. Started in April 2021.</h6>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <h6 class="card-title">Objective</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <h6>
+            Visual and Merchandising Enhancement of iShopChangi's category -
+            Wines and Spirits specific to Product Listing and Detailed Pages
+          </h6>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <h6 class="card-title">My role</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <h6>
+            <ul>
+              <li>UX Research</li>
+              <li>Prototype and Wireframe</li>
+              <li>Notetaker and observer during user interview</li>
+              <li>QA Tester</li>
+            </ul>
+          </h6>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <h6 class="card-title">My responsibilities</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <h6>
+            I worked with the UX team where we went through 6 process to guide
+            us in this journey efficiently and effectively.<br /><br />
+            The descriptions below are based on what I have contributed in this
+            project.
+          </h6>
+        </div>
+      </div>
+
+      <hr class="solid m-5" />
+
+      <!-- The Process -->
+      <div class="row mt-5 text-center">
+        <div>
+          <div class="work1">
+            <h6 class="card-title">THE PROCESS</h6>
+          </div>
+        </div>
+        <div>
+          <div class="container mt-2 timeline">
+            <div class="list-group">
+              <h1 class="text-center"><i class="bi bi-1-circle"></i></h1>
+              <p class="discovery">Empathy</p>
+              <div class="description">
+                <p>Stakeholder Brief</p>
+              </div>
+            </div>
+
+            <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+            <div class="list-group">
+              <h1 class="text-center"><i class="bi bi-2-circle"></i></h1>
+              <p class="discovery">Define</p>
+              <div class="description">
+                <p>Problem statement</p>
+                <p>Data Gathering</p>
+                <p>User Journey Map</p>
+              </div>
+            </div>
+
+            <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+            <div class="list-group">
+              <h1 class="text-center"><i class="bi bi-3-circle"></i></h1>
+              <p class="discovery">Ideate</p>
+              <div class="description">
+                <p>Synthesise findings</p>
+                <p>Brainstorm on solutions</p>
+                <p>Wireframe</p>
+              </div>
+            </div>
+
+            <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+            <div class="list-group">
+              <h1 class="text-center"><i class="bi bi-4-circle"></i></h1>
+              <p class="discovery">Prototype</p>
+              <div class="description">
+                <p>Translate proposed solutions into prototype</p>
+                <p>Conduct Screener Recruitment Survey</p>
+              </div>
+            </div>
+
+            <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+            <div class="list-group">
+              <h1 class="text-center"><i class="bi bi-5-circle"></i></h1>
+              <p class="discovery">Test</p>
+              <div class="description">
+                <p>User Interview</p>
+                <p>Revise prototype</p>
+              </div>
+            </div>
+
+            <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+            <div class="list-group">
+              <h1 class="text-center"><i class="bi bi-6-circle"></i></h1>
+              <p class="discovery">Implementation & Result</p>
+              <div class="description">
+                <p>Handover of designs to Dev't team</p>
+                <p>QA testing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="solid m-5" />
+
+    <!-- START Grid Wines Spirits -->
+    <div class="container text-center mt-5">
+      <div class="eyebrow my-3">My contribution</div>
+      <div>
+        <h6>
+          The team conducted a competitive analysis on total of 10 ecommerce
+          international and local websites to understand how the product
+          information is portrayed and interpreted for each beverage.
+          <br />
+          <br />
+          Based on the data analytics gathered, 'Wine', 'Sake' and 'Whisky' as
+          these are the top selling beverages where it helped narrowed down the
+          team's research. The team also analyise the UI trends by identifying
+          similar components that may contribute to an increase in time-spent
+          for users to stay in the page and a decisive-factor in buying the
+          products.
+          <br />
+          <br />
+          Tasting notes is one of the common characteristics that is important
+          to be included in the prototype to be used for the user interviews. In
+          synthesising data gather after interview, the team and stakeholder
+          regrouped to discuss which of the characteristics will be included in
+          the tasing notes. My contribution is to create a UI and research on
+          the values that defines each of the beverages' characteristics.
+          <br />
+          <br />
+        </h6>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4><i class="bi bi-emoji-sunglasses"></i></h4>
+          <div class="eyebrow my-3">Research</div>
+          <h6>
+            My focused is to identify the different attributes shown for 'Wine',
+            'Sake' & 'Whisky'. I also discovered there are different UI that
+            represents each of these characterstics.
+          </h6>
+          <img
+            src="links/UX-research1.png"
+            class="img-fluid"
+            alt="gerties-main"
+          />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col">
+          <h4><i class="bi bi-journal-richtext"></i></h4>
+          <div class="eyebrow my-3">Data Collected</div>
+          <h6>
+            In my research, I listed down what the values are for each of the
+            beverages' characteristics. For example, 'Appearance' has different
+            values that represents Wine, Whisky and Sake. These data are also
+            used in the filter feature for the Product Listing Page.
+          </h6>
+          <img
+            src="links/UX-research2.png"
+            class="img-fluid"
+            alt="gerties-main"
+          />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col">
+          <h4><i class="bi bi-palette"></i></h4>
+          <div class="eyebrow my-3">UI</div>
+          <h6>
+            The designs I proposed are based on 'Simple' & 'Complex' and taken
+            into consideration its dynamic content and the development process.
+            The team with stakeholder decided to go for the final design as
+            information is easy to capture and also in line with ShopChangi's
+            Design System.
+          </h6>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img
+            src="links/tasting-notes-Simple.png"
+            class="img-fluid"
+            alt="simple-component"
+          />
+          <p class="caption mt-2">Simple Design</p>
+        </div>
+        <div class="col">
+          <img
+            src="links/tasting-notes-Complex.png"
+            class="img-fluid"
+            alt="complex-component"
+          />
+          <p class="caption mt-2">Complex Design</p>
+        </div>
+        <div class="col">
+          <img
+            src="links/tasting-notes-Final.png"
+            class="img-fluid"
+            alt="final design"
+          />
+          <p class="caption mt-2">Final Design</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="solid m-5" />
+
+    <!-- footer -->
+    <footer class="pagination justify-content-center mt-5">
+      <small>Portfolio 2022</small>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--     <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>

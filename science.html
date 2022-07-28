@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <title>frances_gonzales</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="./index.html"><strong>{fg}</strong></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./skills.html"
+              >Skills</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#selectedProjects">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#contactMe">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Return to Top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <img
+        src="https://francesjgonzales.github.io/myportfolio/links/arrow-up-short.svg"
+        alt="arrow-up"
+        width="25px"
+      />
+    </button>
+
+    <!-- Pagination -->
+    <div class="container mt-5">
+      <h5 class="card-title text-center">
+        <strong>Works</strong>
+      </h5>
+      <nav aria-label="Page navigation">
+        <ul
+          class="pagination pagination-sm justify-content-center text-center"
+          id="navPortflio"
+        >
+          <li class="page-item">
+            <a class="page-link" href="./winespirit.html">UX and UI</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./gerties.html">FE</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./construction.html">UI Design</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./digitaldesign.html">Visual Design</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./microsite.html">Microsite</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link active" href="./science.html">Interactive</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./branding.html">Branding</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./motiongraphics.html"
+              >Motion Graphics</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <hr class="solid m-5" />
+
+    <!-- PORTFOLIO 1 -->
+    <div class="row mt-3">
+      <div class="work1">
+        <h5 class="card-title text-center">
+          <strong>Science for kids</strong>
+        </h5>
+        <p class="card-text text-center">
+          A bootcamp project for an interactive website using javascript
+        </p>
+        <div class="button">
+          <a
+            href="https://francesjgonzales.github.io/periodicTableProj2/"
+            target="_blank"
+            class="btn"
+            >Live Implementation</a
+          >&emsp;
+          <a
+            href="https://github.com/francesjgonzales/periodicTableProj2"
+            target="_blank"
+            class="btn"
+            >Documentation</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- START Wines Spirits -->
+    <div class="container mt-5">
+      <img
+        src="https://francesjgonzales.github.io/myportfolio/links/Science-Mock-up.png"
+        class="img-fluid" width="1920px"
+        alt="Science-Web-mockup"
+      />
+
+      <!-- START Requirements -->
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <span class="eyebrow">COMPANY</span>
+            <h6 class="card-title">Bootcamp Project</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <span class="eyebrow">PROJECT DATE</span>
+          <h6>November 2020</h6>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <h6 class="card-title">Objective</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <h6>
+            Introduce basic Periodic elements to Primary 4 or 10 year old kids
+            and engage them to easy science experiments.
+          </h6>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <h6 class="card-title">My role</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <h6>
+            <ul>
+              <li>UX Research</li>
+              <li>Wireframe and Prototype</li>
+              <li>UI Design</li>
+              <li>Front-end Development</li>
+            </ul>
+          </h6>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <h6 class="card-title">My responsibilities</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <h6>
+            I started my research by identifying the age range of kids that
+            takes up basic foundation of Science. Then proceed to identify what
+            type of information to include in the website by researching on
+            'kid-friendly' science website like Chem 4Kids.<br /><br />
+
+            I created a user flow on the type of information which becomes a
+            step by step process on how to introduce Chemistry to kids with
+            basic information on Science.
+          </h6>
+        </div>
+      </div>
+
+      <hr class="solid m-5" />
+    </div>
+
+    <!-- The Process -->
+    <div class="row mt-5 text-center">
+      <div>
+        <div class="work1">
+          <h6 class="card-title">THE PROCESS</h6>
+        </div>
+      </div>
+      <div>
+        <div class="container mt-2 timeline">
+          <div class="list-group">
+            <h1 class="text-center"><i class="bi bi-1-circle"></i></h1>
+            <p class="discovery">Define</p>
+            <div class="description">
+              <p>Problem statement</p>
+              <p>Gather data</p>
+              <p>User Journey Mapping</p>
+            </div>
+          </div>
+
+          <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+          <div class="list-group">
+            <h1 class="text-center"><i class="bi bi-2-circle"></i></h1>
+            <p class="discovery">Ideate</p>
+            <div class="description">
+              <p>Synthesise findings</p>
+              <p>Brainstorm on solutions</p>
+              <p>Wireframe</p>
+            </div>
+          </div>
+
+          <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+          <div class="list-group">
+            <h1 class="text-center"><i class="bi bi-3-circle"></i></h1>
+            <p class="discovery">Prototype</p>
+            <div class="description">
+              <p>Translate proposed solutions into prototype</p>
+            </div>
+          </div>
+
+          <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+          <div class="list-group">
+            <h1 class="text-center"><i class="bi bi-4-circle"></i></h1>
+            <p class="discovery">Implementation</p>
+            <div class="description">
+              <p>Developed prototype into UI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- START portfolio -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <br />
+          <div class="eyebrow my-3 text-center">User research</div>
+          <img
+            src="https://francesjgonzales.github.io/myportfolio/links/UX Research@2x.png"
+            class="img-fluid"
+            alt="Chem4kids"
+          />
+          <br />
+          <br />
+          <div class="eyebrow my-3 text-center">User Flow & Wireframe</div>
+          <img
+            src="https://francesjgonzales.github.io/myportfolio/links/User flow@2x.png"
+            class="img-fluid"
+            alt="userFlow_wireframe"
+          />
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col">
+          <div class="eyebrow my-3 text-center">Design system</div>
+          <h6>
+            I used a san serif font, Roboto Mono, which is easy to read. Colours
+            used are striking and also interpreted long-winded text to visual
+            images.
+            <br />
+            <br />
+          </h6>
+          <img
+            src="https://francesjgonzales.github.io/myportfolio/links/Science-Design-guidelines@2x.png"
+            class="img-fluid"
+            alt="science-design-guidelines"
+          />
+          <br />
+          <div class="eyebrow my-3 text-center">Visual Designs</div>
+          <img
+            src="https://francesjgonzales.github.io/myportfolio/links/Visual_Designs.png"
+            class="img-fluid"
+            alt="design-guidelines"
+          />
+        </div>
+      </div>
+    </div>
+
+    <hr class="solid m-5" />
+
+    <!-- START Contact -->
+    <div class="container mt-5">
+      <h3 class="subHeader" id="contactMe">Contact me</h3>
+      <br />
+      <address>
+        <strong>Email me at</strong>&nbsp;<a
+          href="mailto:francesj7837@gmail.com"
+          >francesj7837@gmail.com</a
+        >.<br />
+      </address>
+    </div>
+
+    <!-- footer -->
+    <footer class="pagination justify-content-center mt-5">
+      <small>Portfolio 2021</small>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./script.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

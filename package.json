@@ -1,0 +1,26 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "Welcome to my [portfolio](https://francesjgonzales.github.io/myportfolio/).",
+  "main": "script.js",
+  "dependencies": {
+    "bootstrap-icons": "^1.3.0",
+    "bootstrap": "^5.0.0-beta2",
+    "mdb-ui-kit": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francesjgonzales/myportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francesjgonzales/myportfolio/issues"
+  },
+  "homepage": "https://github.com/francesjgonzales/myportfolio#readme"
+}

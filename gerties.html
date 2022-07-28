@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <title>frances_gonzales</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="./index.html"><strong>{fg}</strong></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./skills.html"
+              >Skills</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#selectedProjects">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#contactMe">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Return to Top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <img
+        src="https://francesjgonzales.github.io/myportfolio/links/arrow-up-short.svg"
+        alt="arrow-up"
+        width="25px"
+      />
+    </button>
+
+    <!-- Pagination -->
+    <div class="container mt-5">
+      <h5 class="card-title text-center">
+        <strong>Works</strong>
+      </h5>
+      <nav aria-label="Page navigation">
+        <ul
+          class="pagination pagination-sm justify-content-center text-center"
+          id="navPortflio"
+        >
+          <li class="page-item">
+            <a class="page-link" href="./winespirit.html">UX and UI</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link active" href="./gerties.html">FE</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./construction.html">UI Design</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./digitaldesign.html">Visual Design</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./microsite.html">Microsite</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./science.html">Interactive</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./branding.html">Branding</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="./motiongraphics.html"
+              >Motion Graphics</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <hr class="solid m-5" />
+
+    <!-- PORTFOLIO 1 -->
+    <div class="row mt-3">
+      <div class="work1">
+        <h5 class="card-title text-center">
+          <strong>Gerties Bakeshop</strong>
+        </h5>
+        <p class="card-text text-center">
+          A front-end e-commerce website for customers to get updates on store's
+          menus and able to send enquiries on take-outs and delivery orders
+        </p>
+        <div class="button">
+          <a
+            href="https://francesjgonzales.github.io/gertiesfinal/"
+            target="_blank"
+            class="btn"
+            >Live Implementation</a
+          >&emsp;
+          <a
+            href="https://github.com/francesjgonzales/gertiesfinal"
+            target="_blank"
+            class="btn"
+            >Documentation</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- START Wines Spirits -->
+    <div class="container mt-5">
+      <img
+        src="links/Mock-up.png"
+        class="img-fluid"
+        alt="Intro image to Gerties"
+      />
+
+      <!-- START Requirements -->
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <span class="eyebrow">COMPANY</span>
+            <h6 class="card-title">Gertie's Bakeshop</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <span class="eyebrow">PROJECT DATE</span>
+          <h6>July 2020</h6>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <h6 class="card-title">Objective</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <h6>
+            To expand take-out and delivery orders via an e-commerce website,
+            reach out to potential and loyal customers, and increase audience
+            social media engagement in existing Facebook and Instagram.
+          </h6>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4">
+          <div class="work1">
+            <h6 class="card-title">My role</h6>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <h6>
+            <ul>
+              <li>UX Research</li>
+              <li>Wireframe and Prototype</li>
+              <li>UI Design</li>
+              <li>Front-end Development</li>
+            </ul>
+          </h6>
+        </div>
+      </div>
+
+      <hr class="solid m-5" />
+
+      <!-- The Process -->
+      <div class="row mt-5 text-center">
+        <div>
+          <div class="work1">
+            <h6 class="card-title">THE PROCESS</h6>
+          </div>
+        </div>
+        <div>
+          <div class="container mt-2 timeline">
+            <div class="list-group">
+              <h1 class="text-center"><i class="bi bi-1-circle"></i></h1>
+              <p class="discovery">Define</p>
+              <div class="description">
+                <p>Problem statement</p>
+                <p>Gather data</p>
+                <p>User Journey Mapping</p>
+              </div>
+            </div>
+
+            <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+            <div class="list-group">
+              <h1 class="text-center"><i class="bi bi-2-circle"></i></h1>
+              <p class="discovery">Ideate</p>
+              <div class="description">
+                <p>Synthesise findings</p>
+                <p>Brainstorm on solutions</p>
+                <p>Wireframe</p>
+              </div>
+            </div>
+
+            <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+            <div class="list-group">
+              <h1 class="text-center"><i class="bi bi-3-circle"></i></h1>
+              <p class="discovery">Prototype</p>
+              <div class="description">
+                <p>Translate proposed solutions into prototype</p>
+              </div>
+            </div>
+
+            <h2><i class="bi bi-arrow-right" style="color: black"></i></h2>
+
+            <div class="list-group">
+              <h1 class="text-center"><i class="bi bi-4-circle"></i></h1>
+              <p class="discovery">Implementation</p>
+              <div class="description">
+                <p>Developed prototype into UI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="solid m-5" />
+    </div>
+
+    <!-- START Grid Wines Spirits -->
+    <div class="container text-center mt-5">
+      <div class="row">
+        <div class="col">
+          <h4><i class="bi bi-emoji-sunglasses"></i></h4>
+          <div class="eyebrow my-3">Research</div>
+          <h6>
+            I started my research by knowing the stakeholder's and competitor's
+            background & online presence. Also studied how content information
+            are handled in social media and google reviews. I found out that
+            information awareness is limited to 'per enquiry basis' and no
+            standard template existed.
+          </h6>
+          <img
+            src="links/gerties-research.png"
+            class="img-fluid"
+            alt="gerties-main"
+          />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col">
+          <h4><i class="bi bi-journal-richtext"></i></h4>
+          <div class="eyebrow my-3">Content Structure</div>
+          <h6>
+            From the data gathered, I organised the information based on common
+            questions asked from google and facebook. It is categorised in 3
+            pages which are Main, Menu and Contact page.
+          </h6>
+          <p class="mt3">
+            <a
+              class="btn"
+              data-bs-toggle="collapse"
+              href="#about"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              ABOUT
+            </a>
+            <a
+              class="btn"
+              data-bs-toggle="collapse"
+              href="#menu"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              MENU
+            </a>
+            <a
+              class="btn"
+              data-bs-toggle="collapse"
+              href="#contact"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              CONTACT US
+            </a>
+          </p>
+          <div class="collapse description" id="about">
+            <div class="card card-body text-start">
+              <ul>
+                <li>Who are we</li>
+                <p>
+                  1990 - Put up their first display rack in front of their
+                  garage selling bread. In October, they opened their first
+                  store in Cut Cut 1, Tarlac city.
+                </p>
+                <p>1995 - Opened up their 2nd store.</p>
+                <p>
+                  2020 - Branched out for bigger space selling all day meals
+                  where customers can dine in or take away.
+                </p>
+                <li>What we do</li>
+                <p>Cakes & Pastries</p>
+                <p>All day meals</p>
+                <p>Delivery</p>
+              </ul>
+            </div>
+          </div>
+          <div class="collapse description" id="menu">
+            <div class="card card-body text-start">
+              <ul>
+                <li>Bakeshop = Cakes & Pastries</li>
+                <li>Fastfood = All day meals</li>
+                <li>Delivery</li>
+              </ul>
+            </div>
+          </div>
+          <div class="collapse description" id="contact">
+            <div class="card card-body text-start">
+              <ul>
+                <li>Address</li>
+                <li>Delivery</li>
+                <li>Contact details</li>
+                <li>Location map</li>
+                <li>Social media</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col">
+          <h4><i class="bi bi-palette"></i></h4>
+          <div class="eyebrow my-3">UI</div>
+          <h6>
+            Based on their current logo, the colours are yellow, red and lime
+            green. I wanted to propose a whole new look of Gerties by focusing
+            on the name, toning down the red and limiting the colours to be just
+            red and dark grey for simplicity and clean look.<br /><br />
+
+            For fonts, I used open sans, helvetica & sans-serif font for clear &
+            easy readability.
+          </h6>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <br />
+          <p class="caption mt-2">Low-fidelity Wireframe</p>
+          <img
+            src="links/low-fidelity-mockup.jpg"
+            class="img-fluid"
+            alt="simple-component"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="caption mt-2">Design system</p>
+          <img
+            src="links/Design-guidelines.png"
+            class="img-fluid"
+            alt="simple-component"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <p class="caption mt-2">High-fidelity wireframes</p>
+        <div class="col">
+          <img src="links/Main.png" class="img-fluid" alt="simple-component" />
+          <p class="caption mt-2">Main page</p>
+        </div>
+        <div class="col">
+          <img src="links/Menu.png" class="img-fluid" alt="simple-component" />
+          <p class="caption mt-2">Menu page</p>
+        </div>
+        <div class="col">
+          <img
+            src="links/Delivery.png"
+            class="img-fluid"
+            alt="simple-component"
+          />
+          <p class="caption mt-2">Contact page</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="solid m-5" />
+
+    <!-- footer -->
+    <footer class="pagination justify-content-center mt-5">
+      <small>Portfolio 2022</small>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./script.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
